@@ -48,6 +48,9 @@ const Hero = () => {
                   <Button type="button" title="How do we work?" variant='btn_white_text'/>
           </div>
       </div>
+      <div>
+        
+      </div>
 
     </section>
   )
