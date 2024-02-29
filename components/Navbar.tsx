@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className=' flexBetween max-container padding-container relative z-30 py-5'>
         <Link href="/">
-            <Image src="/hilink-logo.svg" alt='logo' width={300} height={300} >
+            <Image src="/hilink-logo.svg" alt='logo' width={200} height={200} >
 
             </Image>
           
@@ -22,14 +22,14 @@ const Navbar = () => {
 
             </ul>
 
-            <div className='lg:flexCenter hidden'>
+            {/* <div className='lg:flexCenter hidden'>
                     <Button type="button"
                     title="Login"
                     icon="/user.svg"
                     variant="btn_dark_green"
                     />
 
-            </div>
+            </div> */}
             <Image src="menu.svg"
             alt='menu'
             width={32}
