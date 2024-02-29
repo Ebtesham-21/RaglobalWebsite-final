@@ -16,7 +16,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined} : CampProps) 
       
       <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 ">
         <div className="flexCenter gap-4">
-            <div className="rounded-full bg-green-50 p-4">
+            <div className="rounded-full bg-red-10 p-4">
                 <Image
                   src="/folded-map.svg"
                   alt="map"
@@ -35,7 +35,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined} : CampProps) 
 
         </div>
         <div className="flexCenter gap-6">
-          <span className="flex -space-x-4 overflow-hidden">
+          {/* <span className="flex -space-x-4 overflow-hidden">
             {
               PEOPLE_URL.map((url) => (
                 <Image
@@ -50,7 +50,7 @@ const CampSite = ({backgroundImage, title, subtitle, peopleJoined} : CampProps) 
             }
 
           </span>
-          <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
+          <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p> */}
 
         </div>
       </div>
@@ -75,7 +75,7 @@ const Camp = () => {
           />
         </div>
         <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
-          <div className="bg-green-50 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20
+          <div className="bg-red-10 p-8 lg:max-w-[500px] xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20
           relative w-full overflow-hidden rounded-3xl 
           ">
             <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
