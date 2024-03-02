@@ -73,6 +73,12 @@ export const NAV_LINKS = [
       { label: 'Email Officer', value: 'hilink@akinthil.com' },
     ],
   };
+
+  export const SliderImages = [
+    'https://via.placeholder.com/800x400/FF0000/FFFFFF?text=Slide+1',
+    'https://via.placeholder.com/800x400/00FF00/FFFFFF?text=Slide+2',
+    'https://via.placeholder.com/800x400/0000FF/FFFFFF?text=Slide+3',
+  ]
   
   export const SOCIALS = {
     title: 'Social',

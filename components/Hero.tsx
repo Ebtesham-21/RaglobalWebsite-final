@@ -7,13 +7,13 @@ const Hero = () => {
     <section className='  max-container padding-container flex flex-col gap-20 py-10
     pb-32 md:gap-28 lg:py-20 xl:flex-row
     '>
-      <div className='hero-map'/>
+     
 
       {/* LEFT */}
       <div className='relative Z-20 flex flex-1 flex-col xl:w-1/2'>
          
           <h1 className='bold-32 lg:bold-88' >
-            Welcome to RA GLOBAL SOLUTIONS
+            Welcome To RA GLOBAL SOLUTIONS
 
           </h1>
           <p className='regular-16 mt-6 text-black xl:max-w-[520px]'>
