@@ -66,7 +66,7 @@ const Footer = () => {
 
         </div>
         <div className='border bg-gray-20'/>
-        <p className='regular-14 w-full text-center '>2024 RA GLOBAL | ALL rights reserved</p>
+        <p className='regular-14 w-full text-center '>Copyright © 2024 RA Global Solutions BD | Powered by RA Global Solutions BD</p>
 
 
       </div>

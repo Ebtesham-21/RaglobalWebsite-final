@@ -52,33 +52,30 @@ export const NAV_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
-        'Press Releases',
-        'Environment',
-        'Jobs',
+        'Home',
+        'About',
+        'Services',
+        'Success Story',
         'Privacy Policy',
         'Contact Us',
       ],
     },
     {
-      title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      title: 'Services',
+      links: ['Study Aboad – Any country', 'Multiple Visit Visa (5/10 Years)', 'Schooling Visa In Canada', 'Canada Immigration'],
     },
   ];
   
   export const FOOTER_CONTACT_INFO = {
-    title: 'Contact Us',
+    title: 'Get In Touch',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Address', value: 'House-18, Road-24, Block-K, Banani, Dhaka-1213, Bangladesh' },
+      { label: 'Email', value: 'info.raglobalsolutionsbd@gmail.com' },
+      { label: 'Phone', value: '+88 01997502199' },
     ],
   };
 
-  export const SliderImages = [
-    'https://via.placeholder.com/800x400/FF0000/FFFFFF?text=Slide+1',
-    'https://via.placeholder.com/800x400/00FF00/FFFFFF?text=Slide+2',
-    'https://via.placeholder.com/800x400/0000FF/FFFFFF?text=Slide+3',
-  ]
+ 
   
   export const SOCIALS = {
     title: 'Social',
